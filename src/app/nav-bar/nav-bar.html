@@ -1,0 +1,49 @@
+
+<nav class="top-bar-color">
+    <div class="row">
+        <a href="#home" class="logo">Mehmet</a>
+        <ul class="title-position">
+            <li>
+                <label class="labl" >
+                    <input id="home1" type="radio" name="radioname" value="one_value" checked="checked"/>
+                    <a (click)="scrollToTop()" class="titles">Home</a>
+                </label>
+            </li>
+            <li>
+                <label class="labl" >
+                    <input id="about1" type="radio" name="radioname" value="two_value" />
+                    <a (click)="scrollToAbout()" class="titles">About</a>
+                </label>
+            </li>
+            <li>
+                <label class="labl" >
+                    <input id="skills1" type="radio" name="radioname" value="three_value"/>
+                    <a (click)="scrollToSkills()" class="titles">Skills</a>
+                </label>
+            </li>
+            <li>
+                <label class="labl" >
+                    <input id="experiences1" type="radio" name="radioname" value="four_value" />
+                    <a (click)="scrollToExperiences()" class="titles">Experiences</a>
+                </label>
+            </li>
+        </ul>
+    </div>
+    <div class="top-bar-mobile">
+        <button type="button" class="navbar-toggle" (click)="toggleMobileMenu()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        @if (mobileMenuOpen()) {
+            <div class="mobile-menu">
+                <a (click)="closeMobileMenu()" href="#home" class="titles">Home</a>
+                <a (click)="closeMobileMenu()" href="#about" class="titles">About</a>
+                <a (click)="closeMobileMenu()" href="#skills" class="titles">Technical Skills</a>
+                <a (click)="closeMobileMenu()" href="#professional-skills" class="titles">Professional Skills</a>
+                <a (click)="closeMobileMenu()" href="#education" class="titles">Education</a>
+                <a (click)="closeMobileMenu()" href="#work-experience" class="titles">Work Experience</a>
+            </div>
+        }
+    </div>
+</nav>

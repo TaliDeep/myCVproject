@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+/* You can add global styles to this file, and also import other style files */
+body {
+    width: 100%;
+    margin-left: 0;
+    top: 0;
+    margin-top: 0;
+    background-color: #100e17;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

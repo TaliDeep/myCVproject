@@ -1,0 +1,276 @@
+.background {
+    height: 630px;
+    padding: 180px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    margin: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 50%; 
+    float: right;
+}
+
+
+img { 
+    border-radius: 50%;
+    height: 360px;
+    width: 360px;
+    border: 20px solid rgba(0, 0, 0, 0.07);
+}
+
+.img-border {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 20px solid rgba(0, 0, 0, 0.4);
+}
+
+.description-container {
+    color: white;
+    float: left; 
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    float: left;
+}
+
+.description-name {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.description-education {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#description-mail {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 10px 0;
+    
+}
+
+#description-number {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0px;
+    background-color: transparent;
+}
+
+#description-address {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0px;
+    background-color: transparent;
+}
+
+ul {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0px;
+    background-color: transparent;
+    margin-top: 20px;
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none !important;
+}
+
+
+.phone-icon {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.fa {
+    color: white;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.fa:hover {
+    color: #2196F3;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+    background: white;
+    color: #2196F3;
+}
+
+.fa-facebook {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: white;
+    font-size: 18px;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+
+}
+.fa-github:hover {
+    opacity: 0.7;
+    background: white;
+    color: #2196F3;
+}
+
+.fa-github {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: white;
+    font-size: 18px;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+
+}
+
+
+.fa-linkedin-square:hover {
+    opacity: 0.7;
+    background: white;
+    color: #2196F3;
+}
+
+.fa-linkedin-square {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: white;
+    font-size: 18px;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+
+}
+.fa-instagram:hover {
+    opacity: 0.7;
+    background: white;
+    color: #2196F3;
+}
+
+.fa-instagram {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: white;
+    font-size: 18px;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+
+}
+
+.icons-size {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    width: 208px;
+}
+
+.speeech-bubble-container {
+    margin-bottom: 30px;
+}
+
+.speeech-bubble {
+    width: 300px;
+    height: 37px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background: #2196F3;
+    color: #fff;
+    padding: 11px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    border-bottom-left-radius: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  #description-mail:hover .fa,
+    #description-number:hover .fa,
+    #description-address:hover .fa {
+        color: #2196F3;
+}
+@media only screen and (max-width: 794px) {
+    .background {
+        height: 800px;
+        padding: 0px 0;
+    }
+    .img-container {
+      display: flex;
+      float: left;
+      margin: auto;
+      width: 100%;
+      height: 390px;
+    }
+    img {
+        height: 240px;
+        width: 240px;
+    }
+    .description-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .icons-size {
+        display: flex;
+        align-items: center;
+        height: 58px;
+        width: 173px;
+        margin: 0 auto;
+    }
+    .description-name {
+        font-size: 42px;
+    }
+    .description-education {
+        font-size: 20px;
+    }
+    .img-border {
+        border-radius: 50%;
+        width: 280px;
+        height: 280px;
+        border: 20px solid rgba(0, 0, 0, 0.4);
+    }
+  }

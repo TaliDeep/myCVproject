@@ -163,50 +163,50 @@ h3 {
   
   .mask.fullC,
   .comC .comF {
-    animation: circle-communication ease-in-out 3s;
-    transform: rotate(135deg);
+    animation: circle-danish ease-in-out 3s;
+    transform: rotate(160deg);
   }
-  @keyframes circle-communication{
+  @keyframes circle-danish{
     0% {
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(135deg);
+      transform: rotate(160deg);
     }
   }
   
   .mask.fullT,
   .teamC .teamF {
-    animation: circle-team ease-in-out 3s;
-    transform: rotate(99deg);
+    animation: circle-english ease-in-out 3s;
+    transform: rotate(110deg);
   }
-  @keyframes circle-team{
+  @keyframes circle-english{
     0% {
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(99deg);
+      transform: rotate(110deg);
     }
   }
   .mask.fullCreativ,
   .creativC .creativF {
-    animation: circle-creativ ease-in-out 3s;
-    transform: rotate(108deg);
+    animation: circle-german ease-in-out 3s;
+    transform: rotate(40deg);
   }
-  @keyframes circle-creativ{
+  @keyframes circle-german{
     0% {
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(108deg);
+      transform: rotate(40deg);
     }
   }
   .mask.fullManagement,
   .managementC .ManagementF {
-    animation: circle-mangement ease-in-out 3s;
+    animation: circle-turkish ease-in-out 3s;
     transform: rotate(154deg);
   }
-  @keyframes circle-mangement{
+  @keyframes circle-turkish{
     0% {
       transform: rotate(0deg);
     }
@@ -227,7 +227,7 @@ h3 {
     position: absolute;
     z-index: 100;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .circle-name {
@@ -252,7 +252,7 @@ h3 {
     }
     .skills-container {
         /* float: left; */
-        padding: 160px 0;
+        padding: 60px 0;
         display: initial;
         /* flex-wrap: wrap; */
         width: 100%;
